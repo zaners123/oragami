@@ -1,4 +1,7 @@
-// TEAMNAME Team Oragami
+ /*
+  * Authors: Randall Dickinson, Nathaniel Warner, Zane Chalich, Chris Vidal.
+  * Team Name: Team Oragami
+  */
 #include <stdio.h>
 #include "Q1.h"
 #include "Q2.h"
