@@ -1,5 +1,11 @@
 // TEAMNAME Team Oragami
 #include <stdio.h>
+#include "Q1.h"
+#include "Q2.h"
+#include "Q3.h"
+#include "Q4.h"
+#include "answer.h"
+
 int main() {
 	printf("Hello! Welcome to Team Oragami!\n");
 	printf("We are going to spread awareness\n");
@@ -9,25 +15,14 @@ int main() {
 	printf("2. Private\n");
 	printf("3. Protected\n");
 	printf("4. Public\n");
-	int Q1;
-	scanf("%d",&Q1);
+	int q1;
+	scanf("%d",&q1);
 
+	int q2 = Q2();
+	int q3 = Q3();
+	int q4 = Q4();
 
-	int Q2;
-	scanf("%d",&Q2);
-
-
-	int Q3;
-	scanf("%d",&Q3);
-
-
-
-
-
-	if (Q1==1 && Q2==2 && Q3==3) {
-		printf("You could spread awareness through compassion!");
-	}
-
+	answer(q1,q2,q3,q4);
 
 	return 0;
 }
