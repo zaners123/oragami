@@ -9,6 +9,6 @@ int Q2() {
 
     int input;
     scanf_s("%d", &input);
-	return 2;
+	return input;
 }
 #endif
