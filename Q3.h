@@ -3,9 +3,9 @@
 #ifndef ORAGAMI_Q3_H
 #define ORAGAMI_Q3_H
 
-#include <stdio.h>
-
-int Q3() {
+int Q3()
+{
+    printf("Testing!");
 
     int choice = 0;
 
